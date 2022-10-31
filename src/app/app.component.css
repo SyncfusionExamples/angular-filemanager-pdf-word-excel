@@ -1,0 +1,7 @@
+.document-editor-container,.pdf-viewer-container,.spreadsheet-container {
+    height:100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+  }

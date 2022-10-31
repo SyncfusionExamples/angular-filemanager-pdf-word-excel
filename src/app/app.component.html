@@ -1,0 +1,30 @@
+<div class="file-manager-container">
+  <ejs-filemanager id='file-manager' [ajaxSettings]='ajaxSettings' (fileOpen)="fileOpen($event)">
+  </ejs-filemanager>
+</div>
+<br />
+
+<ejs-dialog id='openFileDialog'  showCloseIcon='true' height='100%' width='100%' visible='false' isModal='true' >
+  <!-- <ng-template #header>
+    File Manager with PDF Viewer
+  </ng-template>
+  <ng-template #content>
+    <div class="dialogContent">
+      <div class="document-editor-container">
+        <ejs-documenteditorcontainer
+          serviceUrl="https://ej2services.syncfusion.com/production/web-services/api/documenteditor/">
+        </ejs-documenteditorcontainer>
+      </div>
+      <br />
+      <div class="pdf-viewer-container">
+        <ejs-pdfviewer id="pdfViewer" [serviceUrl]='service' [documentPath]='document'
+          style="height:640px;display:block">
+        </ejs-pdfviewer>
+      </div>
+      <br />
+      <div class="spreadsheet-container">
+        <ejs-spreadsheet> </ejs-spreadsheet>
+      </div>
+    </div>
+  </ng-template> -->
+</ejs-dialog>
